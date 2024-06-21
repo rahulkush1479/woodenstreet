@@ -51,3 +51,26 @@ $('.owl-img').owlCarousel({
         }
     }
 })
+$('.owl-imgslidenod5').owlCarousel({
+    loop: false,
+    margin: 20,
+    nav: false,
+    autoplay: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        900: {
+            items: 3
+        },
+        1100: {
+            items: 4
+        },
+        1400: {
+            items: 5
+        }
+    }
+})
