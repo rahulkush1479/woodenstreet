@@ -4,8 +4,29 @@
 }
 
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20%;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(131, 131, 131);
+    cursor: pointer;
+    padding: 0px 10px;
+    border-radius: 4px;
+}
+
 .bgantiwhite {
     background-color: #fff5f0;
+}
+.whatsapp{
+    position: absolute;
+    top: 30%;
+    right:0px ;
 }
 
 .topcol {
@@ -48,7 +69,7 @@
 
 }
 
-.profibtn{
+.profibtn {
     border: none;
     background-color: white;
     padding-left: 10px;
@@ -56,7 +77,8 @@
     color: #f76f00;
     font-size: 14px;
 }
-.profibtn:hover{
+
+.profibtn:hover {
     background-color: rgba(220, 219, 219, 0.71);
 }
 
@@ -247,6 +269,7 @@
     --bs-accordion-btn-focus-box-shadow: none !important;
 }
 
+
 @media(min-width:992px) {
     .accordion {
         --bs-accordion-border-color: none !important;
@@ -294,6 +317,7 @@
     font-weight: 400;
 }
 
+
 /* ////////////////////////////////////////////////////       4       ////////////////////////////////////////////////////// */
 
 .headline {
@@ -313,7 +337,7 @@
     height: 100%;
     transition: all ease-in-out .5s;
     overflow: hidden;
-   
+
 }
 
 .fivesecimmghov:hover {
@@ -405,7 +429,7 @@
 
 .sevsecmain {
     position: relative;
-   margin-bottom: 20px !important;
+    margin-bottom: 20px !important;
     height: 250px;
     margin: 5px 0px;
     border-radius: 10px;
@@ -413,7 +437,7 @@
 }
 
 .sevsecmain:hover {
-    opacity: .79;
+    opacity: .75;
 }
 
 .Explorbtn {

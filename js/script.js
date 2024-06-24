@@ -74,3 +74,19 @@ $('.owl-imgslidenod5').owlCarousel({
         }
     }
 })
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFun()};
+
+function scrollFun() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFun() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
